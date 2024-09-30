@@ -46,10 +46,10 @@ Feature engineering involves extracting meaningful numerical features from the t
 
 These features are extracted using custom functions and combined into a feature vector for each text sample.
 
-Model Implementation
+3. Model Implementation
 The logistic regression model is implemented using PyTorch. The model consists of a single linear layer that maps the input features to a single output, which is then passed through a sigmoid function to obtain a probability score.
 
-Training
+4. Training
 The model is trained using the binary cross-entropy loss function and the Stochastic Gradient Descent (SGD) optimizer. The training loop involves:
 - Shuffling the training data and creating batches.
 
